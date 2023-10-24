@@ -1,0 +1,15 @@
+name: FirstPlugin
+version: '${project.version}'
+main: firstplugin.firstplugin.FirstPlugin
+api-version: '1.18'
+commands:
+  fly:
+    description: Toggles flying for the command sender.
+    usage: /fly
+    aliases: [f, flying, togglefly]
+    permission: fly
+    permission-message: You do not have permission.
+  menu:
+    description: Opens the game menu.
+    usage: /menu
+    
